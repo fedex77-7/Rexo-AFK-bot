@@ -1,0 +1,14 @@
+{
+  "name": "rexo-bedrock-afk-bot",
+  "version": "1.0.0",
+  "description": "Bedrock Edition Aternos AFK/connection bot for Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.57.0",
+    "express": "^4.22.1"
+  }
+}
