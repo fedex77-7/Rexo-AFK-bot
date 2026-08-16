@@ -1,0 +1,25 @@
+{
+  "name": "REXO Bedrock AFK BOT",
+  "bot": {
+    "username": "RexoAFKBot",
+    "offline": true
+  },
+  "server": {
+    "host": "Rexointernational.aternos.me",
+    "port": 24387,
+    "version": "",
+    "connectTimeoutMs": 15000
+  },
+  "antiIdle": {
+    "enabled": true,
+    "intervalSeconds": 300,
+    "messages": [
+      "Rexo AFK BOT is online.",
+      "REXO AFK BOT"
+    ]
+  },
+  "reconnect": {
+    "baseDelayMs": 3000,
+    "maxDelayMs": 30000
+  }
+}
